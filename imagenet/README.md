@@ -33,7 +33,7 @@ python main.py -a alexnet --lr 0.01 [imagenet-folder with train and val folders]
 To train a wider resnext with multiple expansion rate, try:
 
 ```bash
-python main_next.py --arch resnext29_cifar100 --ds CIFAR100 --batch-size 128 --x 80 --d 32 --xp 0.25 --wd 0.001 --nes 0 --df 0 --lr 0.05 --lp 150 --epochs 400 ./
+python main_next.py --arch resnext29_cifar100 --ds CIFAR100 --batch-size 128 --x 32 --d 32 --xp 0.25 --wd 0.001 --nes 0 --df 0 --lr 0.05 --lp 150 --epochs 400 ./
 ```
 
 
