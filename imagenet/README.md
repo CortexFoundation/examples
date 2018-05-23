@@ -1,4 +1,4 @@
-# ImageNet training in PyTorch(Modified By DeepInsight)
+# ImageNet training in PyTorch(Modified By CortexLabs)
 
 The original trunk implements training of popular model architectures, such as ResNet, AlexNet, and VGG on the ImageNet dataset.
 
@@ -74,4 +74,5 @@ optional arguments:
   --xp                  expansion rate
   --df                  Use Deformable ConvNets
   --lp                  The first time learning rate start to decrease
+  --resmode             Resmode Experiment
 ```
